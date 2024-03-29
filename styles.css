@@ -1,2 +1,18 @@
-
-/* Your CSS Code here. */
+.item{
+	width:100px;
+	height:100px;
+}
+.holder{
+	display:flex;
+	justify-content:center;
+	font-size:50px;
+}
+p:first-child{
+	background-color:green;
+}
+p:nth-child(even){
+	background-color:red;
+}
+p:last-child{
+	background-color:blue;
+}
